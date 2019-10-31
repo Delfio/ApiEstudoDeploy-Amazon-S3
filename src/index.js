@@ -1,3 +1,5 @@
+import "dotenv/config"; // variaveis ambiente
+
 import express from "express";
 import morgan from "morgan";
 
