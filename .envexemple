@@ -1,3 +1,10 @@
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_DEFAULT_REGION=
+APP_URL=http://localhost:xxxx
+
+MONGO_URL=mongodb://xxx.xxx.xxx/xxxx
+STORAGE_TYPE=local / s3
+AWS_BUCKET_NAME=
+
+AWS_ACCESS_KEY_ID=xxxxx
+AWS_SECRET_ACCESS_KEY=xxxxxxxx
+AWS_DEFAULT_REGION=sa-east-1
+
