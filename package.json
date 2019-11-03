@@ -10,7 +10,8 @@
     "multer-s3": "^2.9.0"
   },
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "satart": "node src/index.js"
   },
   "devDependencies": {
     "nodemon": "^1.19.4",
