@@ -5,7 +5,7 @@ import morgan from "morgan";
 
 import "./database";
 import path from "path";
-import cors from 'cors';
+import cors from "cors";
 
 const app = express();
 
