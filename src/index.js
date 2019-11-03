@@ -5,13 +5,14 @@ import morgan from "morgan";
 
 import "./database";
 import path from "path";
+import cors from 'cors';
 
 const app = express();
 
 //Database Stup
 
 //
-
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan("dev"));
